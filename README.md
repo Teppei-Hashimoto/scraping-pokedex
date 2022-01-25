@@ -12,11 +12,21 @@
 + pymongo
 # ファイルの説明
 ## 実行用ファイル
+### get_all_gen_url.ipynb
+全世代ポケモンの名前とURLの一覧を取得
+### all_gen_pokedex.ipynb
+全国図鑑の全ポケモンのデータ取得
 ### attackdex.ipynb
 技一覧のスクレイピングおよびCSV出力に使用
-### pokedex.ipynb
+### stats_dump.ipynb
+種族値のCSV出力に使用
+### db_csv_dump.ipynb
+DBページ作成用CSVの作成に使用
+### attack_text_dump.ipynb
+ポケモンごとに覚える技の本文テキストの生成に使用
+### pokedex.ipynb（廃止）
 ポケモン一覧のスクレイピングおよびMongoDBへの格納に使用
-### create_text.ipynb
+### create_text.ipynb（廃止）
 ポケモンと技データから本文の生成に使用
 ## 参照用ファイル（主要なもの）
 ### type.csv
