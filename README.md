@@ -1,15 +1,4 @@
 
-# 環境構築
-## ツール
-+ Anaconda
-+ JupyterLab
-+ MongoDB
-## パッケージ・ライブラリ
-+ requests
-+ BeautifulSoup
-+ pandas
-+ pickle
-+ pymongo
 # ファイルの説明
 ## 実行用ファイル
 ### get_all_gen_url.ipynb
@@ -42,6 +31,23 @@ DBページ作成用CSVの作成に使用
 たまごグループに関するデータ
 ### pokedex_name_list.pkl
 ポケモン英語名の一覧データ
+
+<br>
+
+# 環境構築
+## 使用するツール
++ Anaconda
++ JupyterLab
++ MongoDB
+## パッケージ・ライブラリ
++ requests
++ BeautifulSoup
++ pandas
++ pickle
++ pymongo
+
+<br>
+
 # MongoDB関連
 スクレイピングで取得したポケモンデータを一度ローカルのMongoDBに格納する形を取っています。
 ## 使い方
